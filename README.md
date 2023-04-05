@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Ruby Capstone Project</b></h3>
+  <h3><b>My Blog</b></h3>
 
 </div>
 
