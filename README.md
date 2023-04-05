@@ -1,38 +1,4 @@
-<a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -99,9 +65,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **{Will show lisrs of posts]**
+- **[will show likes]**
+- **[will show comments]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,27 +103,27 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: git clone https://github.com/Ade179/Myblog.git
 
 <!--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Ade179/Myblog.git
 ```
 --->
 
 ### Install
 
-Install this project with:
+Install this project with: Rails
 
 <!--
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  gem bundle install
 ```
 --->
 
@@ -175,10 +141,10 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: Rspec
 
 <!--
-Example command:
+Example command: Rspec
 
 ```sh
   bin/rails test test/models/article_test.rb
@@ -187,7 +153,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: Rails
 
 <!--
 Example:
@@ -241,7 +207,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project show your support by adding a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,7 +217,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank all code reviewers for making this project awesome
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
