@@ -20,8 +20,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
-
 # 📖 [My Blog] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
