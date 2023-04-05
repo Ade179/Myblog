@@ -1,7 +1,4 @@
 
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -24,7 +21,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [My Blog] <a name="about-project"></a>
 
