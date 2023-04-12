@@ -11,7 +11,7 @@ RSpec.describe Like, type: :model do
         ), title: 'Hey', text: 'Programming in rails is wonderful',
         likes_counter: 0, comments_counter: 0
       ),
-      author: User.new(name: 'chidera', photo: 'https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png', bio: 'Student at Microverse.',
+      author: User.new(name: 'chidera', photo: 'example.png', bio: 'Student at Microverse.',
                        posts_counter: 0)
     )
   end

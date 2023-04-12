@@ -6,7 +6,7 @@ FactoryBot.define do
     association :user
     association :post
     after(:create) do |comment|
-      comment.post.update(posts_counter: comment.post.comments.count) # Update the posts_counter attribute of the associated post
+      comment.post.update(posts_counter: comment.post.comments.count)
     end
   end
 end
