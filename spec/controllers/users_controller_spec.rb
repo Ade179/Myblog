@@ -1,13 +1,13 @@
 require 'rails_helper'
 
 RSpec.describe '/users', type: :request do
-  describe 'UsersConroller' do
+  describe 'UsersController' do
     context 'GET index' do
       before(:example) do
         get '/users'
       end
 
-      it 'Success response status for index action' do
+      it 'success for index action' do
         expect(response).to have_http_status(:success)
       end
 
@@ -25,7 +25,7 @@ RSpec.describe '/users', type: :request do
         get '/users/1'
       end
 
-      it 'Success response status for show action' do
+      it 'Success for show action' do
         expect(response).to have_http_status(:success)
       end
 
@@ -33,7 +33,7 @@ RSpec.describe '/users', type: :request do
         expect(response).to render_template(:show)
       end
 
-      it 'Correct body placeholder text for show action' do
+      it 'Render correct body placeholder' do
         expect(response.body).to include('Here is a specific user')
       end
     end
