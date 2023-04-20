@@ -20,12 +20,12 @@ RSpec.describe '/posts', type: :request do
       end
     end
 
-    context 'GET show' do
+    context 'GET show action' do
       before(:example) do
         get '/users/1/posts/1'
       end
 
-      it 'Success response status for show action' do
+      it 'Success response for show action' do
         expect(response).to have_http_status(:success)
       end
 
@@ -33,7 +33,7 @@ RSpec.describe '/posts', type: :request do
         expect(response).to render_template(:show)
       end
 
-      it 'Correct body placeholder text for show action' do
+      it 'render correct placeholder' do
         expect(response.body).to include('Here is a specific post')
       end
     end
