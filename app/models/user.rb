@@ -10,7 +10,6 @@ class User < ApplicationRecord
     posts.count
   end
 
-
   def three_latest_posts
     posts.where(author: self).order(created_at: :desc).limit(3)
   end

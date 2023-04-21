@@ -20,7 +20,7 @@ class Post < ApplicationRecord
   def likes_counter
     likes.count
   end
-  
+
   private
 
   def update_posts_counter
