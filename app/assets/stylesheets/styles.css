@@ -269,3 +269,15 @@ body {
       border: 1px solid #e6e3e3bf;
     }
   } */
+
+  .big-box {
+    border: 2px solid black;
+    width: 700px;
+    padding: 20px;
+  }
+
+  .head {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
