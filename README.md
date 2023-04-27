@@ -157,4 +157,3 @@ This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- In the index action, we are using includes to preload comments and likes for the posts belonging to a user. In the show action, you are using includes to preload comments and likes for all the posts belonging to a user. This should help to minimize the number of database queries needed to render the page and improve performance.
