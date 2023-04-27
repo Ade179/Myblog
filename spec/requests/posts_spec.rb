@@ -1,8 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe 'Posts', type: :request do
-  subject { User.create(name: 'Juwon', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Researcher from UK.',
-                          posts_counter: 0) }
+  subject do
+    User.create(name: 'Juwon', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Researcher from UK.',
+                posts_counter: 0)
+  end
 
   describe 'GET /index' do
     before(:each) do
