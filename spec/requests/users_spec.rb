@@ -14,7 +14,8 @@ RSpec.describe UsersController, type: :request do
 
     it 'assigns @users' do
       user1 = User.create(name: 'John', photo: 'https://example.com/photo1.jpg', bio: 'Some bio', posts_counter: 0)
-      user2 = User.create(name: 'Jane', photo: 'https://example.com/photo2.jpg', bio: 'Some other bio', posts_counter: 0)
+      user2 = User.create(name: 'Jane', photo: 'https://example.com/photo2.jpg', bio: 'Some other bio',
+                          posts_counter: 0)
       get '/users'
       expect(assigns(:users)).to match_array([user1, user2])
     end
