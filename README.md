@@ -114,6 +114,11 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/Ade179)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adejuwon-adesanya-237b54239/)
 
+👤 **Jacinta Ngwu**
+
+- GitHub: [@JacintaNgwu](https://github.com/JacintaNgwu)
+- Twitter: [@jacinta_ngwu](https://twitter.com/jacinta_ngwu)
+- LinkedIn: [jacinta_ngwu](https://www.linkedin.com/in/jacintangwu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
