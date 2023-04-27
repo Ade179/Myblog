@@ -60,3 +60,47 @@ body {
   gap: 100px;
   align-items: center;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login {
+  width: 300px;
+  padding: 10px;
+}
+
+.login-button {
+  width: 300px;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.padder {
+  padding: 50px;
+}
+
+.destroy {
+  background-color: red;
+  padding: 20px;
+  color: white;
+  border: none;
+}
