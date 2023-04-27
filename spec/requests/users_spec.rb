@@ -95,7 +95,6 @@ RSpec.describe UsersController, type: :request do
       expect(response.body).to include(post1.title)
     end
 
-
     it 'shows link that redirects to user post index page when clicking on "see all posts"' do
       user = User.create(name: 'John', photo: 'https://example.com/photo1.jpg', bio: 'Some bio', posts_counter: 5)
       get "/users/#{user.id}"
