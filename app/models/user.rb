@@ -11,10 +11,10 @@ class User < ApplicationRecord
   def posts_counter
     posts.count
   end
-   def admin?
+
+  def admin?
     role == 'admin'
   end
-
 
   def three_latest_posts
     posts.where(author: self).order(created_at: :desc).limit(3)

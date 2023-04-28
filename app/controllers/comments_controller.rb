@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-   load_and_authorize_resource
+  load_and_authorize_resource
   def create
     @post = Post.find(params[:post_id])
     new_comment = current_user.comments.new(post_id: @post.id,
@@ -16,7 +16,7 @@ class CommentsController < ApplicationController
   end
 
   def destroy
-     @post = Post.find(params[:post_id])
+    @post = Post.find(params[:post_id])
     comment = Comment.find(params[:id])
     comment.destroy
     comment.save
