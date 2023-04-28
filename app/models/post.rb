@@ -21,7 +21,6 @@ class Post < ApplicationRecord
     likes.count
   end
 
-
   private
 
   def update_posts_counter
