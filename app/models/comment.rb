@@ -1,6 +1,6 @@
 class Comment < ApplicationRecord
   belongs_to :author, class_name: 'User'
-  belongs_to :post
+  belongs_to :post, foreign_key: :post_id, counter_cache: :comments_counter
   after_save :update_comments_counter
   after_destroy :destroy_comments_counter
 
