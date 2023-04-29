@@ -1,42 +1,45 @@
 
 
-  <h3><b>My Blog</b></h3>
+<div align="center">
+
+
+  <h1><b>Blog App</b></h1>
 
 </div>
 
+# 📗 Table of Contents
 
-## 📗 Table of Contents
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- [📦 Catalogue of Possessions ](#-My Blog-)
-  - [🛠 Built With ](#-built-with-)
-    - [🧰 Tech Stack ](#-tech-stack-)
-    - [🎯 Key Features ](#-key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [📃 Prerequisites](#-prerequisites)
-    - [📥 Setup](#-setup)
-    - [💾 Installation](#-installation)
-    - [📱 Usage](#-usage)
-    - [🧪 Run tests](#-run-tests)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [💖 Show your support ](#-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📜 License ](#-license-)
+<!-- PROJECT DESCRIPTION -->
 
+# 📖 [Blog App] <a name="about-project"></a>
 
-# 📦 Catalogue of Possessions <a name="about-project"></a>
-
-This is a console app which allows users to store and manage data about their possessions including books, music albums and games.
+**[Blog App]** is a simple blogging website that allows users to create posts and add them to a feed. Users can also comment on posts and like them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### 🧰 Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Ruby on Rails</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -47,64 +50,87 @@ This is a console app which allows users to store and manage data about their po
   </ul>
 </details>
 
+<!-- Features -->
 
-### 🎯 Key Features <a name="key-features"></a>
+### Key Features <a name="key-features"></a>
 
-- **Show likes**
-- **List all comments**
-
+- **[Create and manage blog posts]**
+- **[Read posts by other users]**
+- **[Interact by giving likes/comments]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### 📃 Prerequisites
+### Prerequisites
 
-In order to run this project you need [Ruby](https://www.ruby-lang.org/en/)  and Rails installed on your machine.
+In order to run this project you need to have installed:
+
+- [Ruby 3.1.3 or higher](https://www.ruby-lang.org/en/)
+- [Rails 7.0.4 or higher](https://rubyonrails.org/)
+- [PostgreSQL 15.2 or higher](https://www.postgresql.org/)
+- [Git](https://git-scm.com/)
+- IDE (VSCode, Atom, Sublime, etc)
 
 
-### 📥 Setup
+### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-project
-  git clone https://github.com/Ade179/Myblog.git
+cd preferred-folder
+
+git clone https://github.com/Ade179/Myblog.git
+
 ```
 
-### 💾 Installation
+### Install
 
 Install this project with:
 
 ```sh
+  cd Blog-App
+
   bundle install
 ```
 
-### 📱 Usage
+### 💾 Database
+
+Create the databases and run migrations with:
+
+```sh
+rails db:create
+rails db:migrate
+```
+
+### Usage
 
 To run the project, execute the following command:
 
 ```sh
-
+  rails server or rails s
 ```
 
-### 🧪 Run tests
+### Run tests
 
 To run tests, run the following command:
 
+
 ```sh
-  rspec spec --format doc
+  rspec spec/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Juwon DanieL Adesanya**
+👤 **AdeJuwon DanieL Adesanya**
 
 - GitHub: [@githubhandle](https://github.com/Ade179)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adejuwon-adesanya-237b54239/)
@@ -115,46 +141,50 @@ To run tests, run the following command:
 - Twitter: [@jacinta_ngwu](https://twitter.com/jacinta_ngwu)
 - LinkedIn: [jacinta_ngwu](https://www.linkedin.com/in/jacintangwu/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **posts**
-- [ ] *likes**
-- [ ] **comments**
+- [ ] **[ Add tests]**
+- [ ] **[Implement authentication]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/JacintaNgwu/Blog-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
-## 💖 Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please consider giving it a 🌟.
+If you like this project, please give it a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all code reviewers for making this project awesome.
-
+I would like to thank the following people for their support and guidance:
+- Microverse for giving me the opportunity to work on this project.
+- My coding partners for their support and guidance.
+- Code reviewers for their feedback and suggestions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-## 📜 License <a name="license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-

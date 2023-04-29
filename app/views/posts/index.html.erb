@@ -7,11 +7,17 @@
 
 <p><%= link_to post.title, user_post_path(@user,post)%></p>
 <p><%= post.text%></p>
+ <%  if can? :destroy, Post %>
+            <%= button_to 'delete post', "/users/#{@user.id}/posts/#{post.id}", class: 'post_btn', method: :delete%>
+          <% end %>
 <p>comment:<%=post.comments_counter %></p>
 <p>likes:<%=post.likes_counter%></p>
 <h3> comments </h3>
  <%post.comments.each do |comment|%>
  <p><%=comment.author.name %>: <%=comment.text %></p>
+       <% if can? :destroy, Comment %>
+                  <%= button_to 'delete comment', "/posts/#{post.id}/comments/#{comment.id}", class: 'post_btn', method: :delete %>
+                <% end %>
  <%end%>
 <%end%>
 

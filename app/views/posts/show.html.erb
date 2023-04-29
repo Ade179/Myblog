@@ -8,8 +8,9 @@
 
 <p><%= @post.text %></p>
 </div>
-
+ <% if can? :create, Comment %>
   <%= render partial: "create_comments",  local: { post: @post } %>
+  <% end %>
             <%= form_with url: "/posts/#{@post.id}/likes", scope: :like do |f| %>
         <%= f.submit "Like this post" %>
       <% end %>
@@ -18,6 +19,9 @@
 <% @post.comments.each do |comment|%>
 
 <p><%= comment.author.name %>:<%= comment.text%> </p>
+         <% if can? :destroy, Comment %>
+          <%= button_to 'delete comment', "/posts/#{@post.id}/comments/#{comment.id}", method: :delete, class: 'post_btn' %>
+          <% end %>
 
 <% end%>
 </div>
