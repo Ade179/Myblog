@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
 ```sh
 cd preferred-folder
 
-git clone https://github.com/JacintaNgwu/Blog-App.git
+git clone https://github.com/Ade179/Myblog.git
 
 ```
 
